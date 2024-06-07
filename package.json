@@ -1,0 +1,26 @@
+{
+  "name": "nyarev",
+  "version": "1.0.0",
+  "description": "Tell me about today's rate",
+  "main": "send-random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exchange.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosnyik/node-telegram-bot.git"
+  },
+  "author": "mosnyik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosnyik/node-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/mosnyik/node-telegram-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "input": "^1.0.1",
+    "node-telegram-bot-api": "^0.65.1",
+    "telegram": "^2.21.2"
+  }
+}
